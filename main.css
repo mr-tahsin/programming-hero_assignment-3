@@ -76,6 +76,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+    width: 90%;
+    margin: auto;
+    align-items: center;
   }
   .popular_card_1_section,
   .popular_card_4_section {
@@ -84,11 +87,11 @@
   .popular_card_1_mobile_section {
     background: linear-gradient(to bottom right, #53db3a, #ffffff) !important;
     display: block;
-    width: 100%;
+    width: 90%;
     height: 100%;
-    padding: 10px;
     border-radius: 10px;
-    position: relative;
+    padding: 20px 20px 0 20px;
+    margin: auto;
   }
   .popular_card_1_mobile_section img {
     display: block; /* Make the image block-level */
@@ -102,6 +105,11 @@
   .popular_card_1_mobile_section p {
     color: black;
     font-weight: extra-light;
+  }
+  .popular_card_2,
+  .popular_card_3,
+  .popular_card_4 {
+    align-items: center;
   }
 }
 @media (min-width: 577px) {
