@@ -60,3 +60,23 @@
     grid-template-columns: 1fr; /* 1 column on small screens */
   }
 }
+
+
+----------------------------
+
+<div class="grid grid-cols-3 gap-4 p-4">
+  <!-- Full-width top card -->
+  <div class="col-span-3 bg-blue-500 text-white p-6 rounded-lg main-card">
+    Main Card (Full Width)
+  </div>
+
+  <!-- Two-thirds width column -->
+  <div class="col-span-2 bg-green-500 text-white p-6 rounded-lg wide-card">
+    First Column (Two-thirds Width)
+  </div>
+
+  <!-- One-third width column -->
+  <div class="col-span-1 bg-red-500 text-white p-6 rounded-lg small-card">
+    Second Column (One-third Width)
+  </div>
+</div>
